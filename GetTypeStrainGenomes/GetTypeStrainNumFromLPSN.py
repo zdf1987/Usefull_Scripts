@@ -8,11 +8,19 @@ import re
 from urllib.request import urlopen
 import shutil
 
+#########################################################################
+#############“在url = 后输入检索目录网址，要加单引号”#############
+
+url = 'https://lpsn.dsmz.de/genus/nocardioides'
+
+#########################################################################
+
 cookies = {
     '_pk_id.11.93af': 'e86410f72646f46f.1646968761.',
     'lpsn_session': 'npobi3hgoorpqkq9h2cra5k0fv',
     '_pk_ses.11.93af': '1',
 }
+
 
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -77,14 +85,6 @@ extraction_process1 = 'TEM/process1.txt'
 extraction_process2 = 'TEM/process2.txt'
 result2_directory = 'TEM/Species_Numbers.txt'
 
-
-
-#########################################################################
-#############“在url = 后输入检索目录网址，要加单引号”#############
-
-url = 'https://lpsn.dsmz.de/genus/nocardioides'
-
-#########################################################################
 
 url1 = 'https://lpsn.dsmz.de/domain/bacteria'
 url +="	"

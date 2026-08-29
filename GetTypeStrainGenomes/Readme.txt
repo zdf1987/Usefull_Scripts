@@ -11,4 +11,6 @@ Perl and Python environments are necessary to run, and modules requests, Beautif
 
 5. The results will be writen in the file 'TypeStrainGenomeInfo.txt'. Open it using Excel or a text reader.
 
-6. After modification of the result (step 5), use the assembly accessions to download genome datasets by using Batch Entrez (https://www.ncbi.nlm.nih.gov/sites/batchentrez).
+6. After modification of the result (step 5), use the assembly accessions to download genome datasets by using NCBI datasets (https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/).
+
+If it is helpful, please cite: Zhang, D.-F., He, W., Shao, Z., Ahmed, I., Zhang, Y., Li, W.-J., Zhao, Z., 2023. Phylotaxonomic assessment based on four core gene sets and proposal of a genus definition among the families Paracoccaceae and Roseobacteraceae. Int. J. Syst. Evol. Microbiol. 73 (11), 006156. https://doi.org/10.1099/ijsem.0.006156

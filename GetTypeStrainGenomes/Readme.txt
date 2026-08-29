@@ -2,7 +2,8 @@ Perl and Python environments are necessary to run, and modules requests, Beautif
 
 1. Do not delete the folder 'TEM';
 
-2. Download a latest list of all the genome records of prokaryotes from NCBI website (https://ftp.ncbi.nlm.nih.gov/genomes/GENOME_REPORTS/prokaryotes.txt), and put it in this folder;
+2. Download a latest list of all the genome records of prokaryotes from NCBI website (https://ftp.ncbi.nlm.nih.gov/genomes/genbank/archaea/assembly_summary.txt
+; https://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/assembly_summary.txt; https://ftp.ncbi.nlm.nih.gov/genomes/refseq/archaea/assembly_summary.txt; OR https://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/assembly_summary.txt), and put it in this folder;
 
 3. Change the working directory of cmd or terminal into this fold, and run 'python GetTypeStrainNumFromLPSN.py --url https://lpsn.dsmz.de/order/rhodobacterales --output TEM'; the url of the taxon of interest (e.g. https://lpsn.dsmz.de/order/rhodobacterales);
 
